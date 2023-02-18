@@ -1,5 +1,5 @@
 .linkedinButton {
-  background-color: #0A66C2;
+  background-color: #0a66c2;
   border: 0;
   border-radius: 100px;
   color: #ffffff;
@@ -13,40 +13,103 @@
   padding-right: 20px;
   margin-right: 50px;
   text-align: center;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   /* vertical-align: middle; */
 }
 
-.linkedinButton:hover { 
-  background-color: #16437E;
+.linkedinButton:hover {
+  background-color: #16437e;
   color: #ffffff;
 }
 
 .linkedinButton:active {
   background: #09223b;
-  color: rgb(255, 255, 255, .7);
+  color: rgb(255, 255, 255, 0.7);
 }
 
 .nomadButton {
-  background: #FF4742;
-  border: 1px solid #FF4742;
+  background: #ff4742;
+  border: 1px solid #ff4742;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 16px;
   padding: 12px 14px;
+  margin-right: 50px;
   text-align: center;
 }
 
 .nomadButton:hover {
   background-color: white;
-  color: #FF4742;
+  color: #ff4742;
 }
 
 .nomadButton:active {
-  opacity: .5;
+  opacity: 0.5;
+}
+
+.back-button {
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.search-result {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.next-button {
+  margin-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  transition: padding-top 1s, padding-bottom 1s, padding-left 1s, padding-right 1s;
+}
+
+.stretch-button:hover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-button:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
 }
